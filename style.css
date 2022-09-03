@@ -9,7 +9,7 @@
   background-image: linear-gradient(rgba(40,9,30,0.7),rgba(40,9,30,0.7)),url("rkmgec_img.jpeg");
   background-position: center;
   background-size: cover;
-  position: relative;
+  position: absolute;
   
     --bs-bg-opacity: 1;
     background-color: rgba(var(--bs-success-rgb), var(--bs-bg-opacity)) !important;
@@ -49,13 +49,13 @@ nav a{
 .text-box{
   width: 90%;
   color:white;
-  position: absolute;
-  top: 20%;
+  position: relative;
+  top: 10%;
   left: 5%;
   text-align: center;
 } 
 .text-box h1{
- font-size: 75px;
+ font-size: 42px;
 }
 .text-box p{
   top: 50%;
