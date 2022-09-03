@@ -70,3 +70,7 @@ function fixStepIndicator(n) {
   //... and adds the "active" class to the current step:
   x[n].className += " active";
 }
+
+if(document.getElementsByClassName("form-group").value=""){
+    alert("Fiele is empty");
+}
